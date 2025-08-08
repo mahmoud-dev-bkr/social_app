@@ -65,9 +65,6 @@ Import `postman_collection.json` into Postman to test the APIs. Available endpoi
 ## Admin Panel
 Access at `/admin` with admin credentials (default: admin@socialapp.com/password). Requires is_admin = true in users table.
 
-## Daily Report
-A daily report job runs at midnight, emailing the admin with new users and posts count.
-
 ## Database Dump
 The database dump is included in `social_app_dump.sql` after running the seeder.
 
@@ -75,3 +72,6 @@ The database dump is included in `social_app_dump.sql` after running the seeder.
 - Telescope is installed for logging all actions and errors (access at /telescope)
 - Uses AdminLTE for admin panel UI
 
+## src Folder
+- social_app_dump.sql
+- social-app.postman_collection.json
