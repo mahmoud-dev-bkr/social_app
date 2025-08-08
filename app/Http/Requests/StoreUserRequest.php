@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Validation\Rule;
 
-class StorePostRequest extends GeneralRequest
+class StoreUserRequest extends GeneralRequest
 {
     /**
      * Get the validation rules that apply to the request.
