@@ -7,9 +7,7 @@ A Laravel-based social application with JWT authentication, AdminLTE dashboard.
 - PHP >= 8.1
 - Composer
 - MySQL
-- Node.js & NPM
-- Pusher account for real-time notifications
-- Mailtrap or similar for email testing
+
 
 ## Installation
 1. Clone the repository:
