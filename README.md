@@ -1,7 +1,7 @@
 ## README.md
 # Social App
 
-A Laravel-based social application with JWT authentication, AdminLTE dashboard, real-time notifications, and daily reporting.
+A Laravel-based social application with JWT authentication, AdminLTE dashboard.
 
 ## Requirements
 - PHP >= 8.1
@@ -14,7 +14,7 @@ A Laravel-based social application with JWT authentication, AdminLTE dashboard, 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/mahmoud-dev-bkr/social_app/
 cd laravel-social-app
 ```
 
@@ -39,22 +39,11 @@ php artisan key:generate
 DB_DATABASE=social_app
 DB_USERNAME=root
 DB_PASSWORD=
-JWT_SECRET=your_jwt_secret
-PUSHER_APP_ID=your_pusher_id
-PUSHER_APP_KEY=your_pusher_key
-PUSHER_APP_SECRET=your_pusher_secret
-PUSHER_APP_CLUSTER=your_pusher_cluster
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=your_mailtrap_username
-MAIL_PASSWORD=your_mailtrap_password
+JWT_SECRET=x6uzgcZOdRpO8douE1QJEZzxOpieaoodeciq7hoLioEnothD2fVX7SmWIAIviLLz
+
 ```
 
-6. Run the custom installation command:
-```bash
-php artisan install:project SocialApp
-```
+
 
 7. Serve the application:
 ```bash
@@ -85,6 +74,4 @@ The database dump is included in `social_app_dump.sql` after running the seeder.
 ## Notes
 - Telescope is installed for logging all actions and errors (access at /telescope)
 - Uses AdminLTE for admin panel UI
-- Real-time notifications via Pusher for new posts
-- Follows SOLID principles with repository pattern and dependency injection
-- Includes unit tests for API endpoints
+
